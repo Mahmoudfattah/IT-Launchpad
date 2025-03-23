@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Portfolio Website for IT Startup in Qatar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a portfolio website built for an IT startup based in Qatar. The design and functionality are entirely my own ideas—with no external UX/UI guidance—and the website is fully responsive, ensuring a smooth experience on all devices. The project includes a feature to switch the layout to Arabic (RTL) and implements a contact form using EmailJS.
 
-## Available Scripts
+## Features
+- **Responsive Design:** Fully responsive layout optimized for mobile, tablet, and desktop.
+- **RTL Support:** Includes functionality to switch to Arabic language and automatically reverse the layout (from left to right).
+- **Email Contact Form:** Integrated with EmailJS for seamless email functionality.
+- **3D Visuals:** Utilizes React Three Fiber for interactive 3D elements.
+- **Smooth Animations:** Implemented animations using Framer Motion.
+- **Icon Library:** Uses FontAwesome icons for enhanced visual appeal.
 
-In the project directory, you can run:
+## Tech Stack & Libraries
+- **Frontend Framework:** React
+- **Styling & Layout:** Bootstrap
+- **Animations:** Framer Motion (via `motion` library)
+- **3D Rendering:** React Three Fiber and @react-three/drei
+- **Email Handling:** EmailJS (`@emailjs/browser`)
+- **Icons:** FontAwesome (`@fortawesome/fontawesome-free`, `@fortawesome/react-fontawesome`, etc.)
+- **Testing:** Testing Library (various packages)
+- **Performance & Monitoring:** Web Vitals
 
-### `npm start`
+### Package Dependencies
+```json
+{
+  "name": "test-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.1.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "motion": "^12.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "three": "^0.174.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
+🛠️ Setup & Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/Mahmoudfattah/IT-Launchpad.git
 
-### `npm test`
+Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd IT-Launchpad
 
-### `npm run build`
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+📧 Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For any inquiries, feel free to reach out via email or create an issue on GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 Built with passion by Mahmoud Fattah
