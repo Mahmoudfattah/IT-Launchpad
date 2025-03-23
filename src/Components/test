@@ -1,0 +1,458 @@
+<section className="section section2 pb-0 pt-5">
+    <div className="container  ">
+      {/* <div className="row pb-5   justify-content-between row-company">
+        <div className="col-md-3 companys   ">
+          <p>hello</p>
+        </div>
+        <div className="col-md-3 companys ">
+          <p>hello</p>
+        </div>
+        <div className="col-md-3 companys ">
+          <p>hello</p>
+        </div>
+        <div className="col-md-3 companys ">
+          <p>hello</p>
+        </div>
+      </div>  */}
+      <div className="row  justify-content-between pt-5">
+      
+      </div>
+    </div>
+  </section>
+
+  <section className=" section section5 pt-5 "  id="about">
+    <div className="container pt-5">
+      <div className="row p-0">
+        <div className="col-md-6">
+          <div className="heading-about-us">
+            <motion.span variants={SlideUp(.2)}
+                          initial="initial"
+                          whileInView={"animate"}>WHAT WE’RE OFFERING</motion.span>
+            <motion.h2 variants={SlideLeft(.5)}
+                          initial="initial"
+                          whileInView={"animate"} >Dealing in all professional IT services.</motion.h2>
+          </div>
+        </div>
+        <div  className="col-md-6">
+          <div className="heading-about-us ">
+            <motion.p variants={SlideUp(.8)}
+                          initial="initial"
+                          whileInView={"animate"}>
+              One fundamental aspect of IT services is infrastructure
+              management. This involves the design, implementation, and
+              maintenance of the hardware, software, networks, and servers.
+            </motion.p>
+          </div>
+        </div>
+        <div className="col-md-8 education">
+          <div class="timeline-items">
+            <motion.div variants={SlideRight(1,1)}
+                          initial="initial"
+                          whileInView={"animate"} class="timeline-item">
+              <div class="timeline-dot"></div>
+              {/* <div class="timeline-date">2020 - 2024</div> */}
+              <div class="timeline-content rounded-5">
+                <h3>Discovery and Analysis.</h3>
+                <p>
+                  Perform a analysis of the client's existing IT systems.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div variants={SlideLeft(1,4)}
+                          initial="initial"
+                          whileInView={"animate"} class="timeline-item">
+              <div class="timeline-dot"></div>
+              {/* <div class="timeline-date">2023</div> */}
+              <div class="timeline-content rounded-5">
+                <h3>Tailored Solutions</h3>
+                <p>Develop IT solutions based on the analysis phase.</p>
+              </div>
+            </motion.div>
+
+            <motion.div variants={SlideRight(1,7)}
+                          initial="initial"
+                          whileInView={"animate"}class="timeline-item">
+              <div class="timeline-dot"></div>
+              {/* <div class="timeline-date">2024</div> */}
+              <div class="timeline-content rounded-5">
+                <h3>Deployment and Support</h3>
+                <p>Regularly communicate with our client to any concern.</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="heading-about-us pt-5">
+            <motion.span  variants={SlideDown(2)}
+                          initial="initial"
+                          whileInView={"animate"} className="pt-5">CONSULTING EXCELLENCE</motion.span>
+            <motion.h2 variants={SlideDown(2.1)}
+                          initial="initial"
+                          whileInView={"animate"} className="pt-3">Best pathway to our clients.</motion.h2>
+            <motion.p variants={SlideUp(2.4)}
+                          initial="initial"
+                          whileInView={"animate"} className="py-5">
+              Our consulting process begins with a thorough assessment of
+              your current IT infrastructure, workflows, and pain points.
+            </motion.p>
+            <div>
+              <ul className="fs-5 py-5 ul-about">
+                <motion.li variants={SlideLeft(2.7)}
+                          initial="initial"
+                          whileInView={"animate"} className="fs-5">
+                  24/7 Full Service Support Immediate Response Easy to
+                  Approach us
+                </motion.li>
+                <motion.li variants={SlideLeft(3)}
+                          initial="initial"
+                          whileInView={"animate"} className="fs-5">Immediate Response</motion.li>
+                <motion.li variants={SlideLeft(3.3)}
+                          initial="initial"
+                          whileInView={"animate"} className="fs-5">Easy to Approach us</motion.li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section className="section section4 pt-5" id="servecis">
+    <div className="container  ">
+      <div class="heading2 pt-4 mt-0">
+        <motion.span
+                    variants={SlideUp(0.2)}
+                    initial="initial"
+                    whileInView={"animate"}>our services</motion.span>
+        <motion.h1
+                    variants={SlideUp(0.5)}
+                    initial="initial"
+                    whileInView={"animate"}>countless exprinces</motion.h1>
+      </div>
+
+      <div className="row pb-5 text-center mx-auto   justify-content-between row-servises g-4">
+        <motion.div
+                          variants={SlideUp(.8)}
+                          initial="initial"
+                          whileInView={"animate"}className="col-md-4 services1  mx-auto   ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+                          variants={SlideUp(1.1)}
+                          initial="initial"
+                          whileInView={"animate"} className="col-md-4 services2 mx-auto  ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+                          variants={SlideUp(1.3)}
+                          initial="initial"
+                          whileInView={"animate"}className="col-md-4 services1 mx-auto  ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+                          variants={SlideUp(1.6)}
+                          initial="initial"
+                          whileInView={"animate"} className="col-md-4 services2 mx-auto    ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+                          variants={SlideUp(1.9)}
+                          initial="initial"
+                          whileInView={"animate"}className="col-md-4 services1 mx-auto ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+                          variants={SlideUp(2.1)}
+                          initial="initial"
+                          whileInView={"animate"} className="col-md-4 services2 mx-auto  ">
+          <div>
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p className="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, placeat.
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  </section> 
+<div>
+{/* مكون التوست نوتيفيكيشن */}
+<ToastContainer />
+
+<section className="section section6" style={{ position: "relative" }} id="contact">
+<div className="container">
+ <div className="row contact">
+   <div className="col-md-10 rounded-4 mx-auto">
+     <div className="heading-contact text-center">
+       <motion.h2 variants={SlideUp(0.2)} initial="initial" whileInView="animate">
+         Contact Us
+       </motion.h2>
+       <motion.p variants={SlideUp(0.5)} initial="initial" whileInView="animate">
+         We’d love to hear from you! Fill in the form below.
+       </motion.p>
+     </div>
+
+     <form onSubmit={handleSubmit}>
+       <div className="row g-3">
+         <motion.div variants={SlideLeft(0.8)} initial="initial" whileInView="animate" className="col-md-6 custom-input">
+           <div className="input-container">
+             <input
+               required
+               type="text"
+               name="name"
+               value={formData.name}
+               onChange={handleChange}
+               className="input"
+             />
+             <label className="label">Name</label>
+           </div>
+         </motion.div>
+
+         <motion.div variants={SlideRight(1.1)} initial="initial" whileInView="animate" className="col-md-6 custom-input">
+           <div className="input-container">
+             <input
+               required
+               type="email"
+               name="email"
+               value={formData.email}
+               onChange={handleChange}
+               className="input"
+             />
+             <label className="label">Email</label>
+           </div>
+         </motion.div>
+
+         <motion.div variants={SlideUp(1.5)} initial="initial" whileInView="animate" className="col-md-12 custom-input pt-4">
+           <div className="input-container">
+             <textarea
+               required
+               name="message"
+               value={formData.message}
+               onChange={handleChange}
+               className="input"
+             ></textarea>
+             <label className="label">Your Message</label>
+           </div>
+         </motion.div>
+
+         <motion.div
+variants={SlideDown(1.8)}
+initial="initial"
+whileInView="animate"
+className="col-md-12 text-center"
+>
+<button type="submit" className="cta">
+<span>Send Message</span>
+<svg width="15px" height="10px" viewBox="0 0 13 10">
+  <path d="M1,5 L11,5"></path>
+  <polyline points="8 1 12 5 8 9"></polyline>
+</svg>
+</button>
+</motion.div>
+
+       </div>
+     </form>
+   </div>
+ </div>
+</div>
+</section>
+</div>
+
+
+
+import img2 from "../../Assets/images/Designer (2).jpeg";
+import {motion} from 'framer-motion'
+import { SlideUp ,SlideLeft,SlideRight,SlideDown} from "../../animation/animate";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
+function Home() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const params = {
+      from_name: formData.name,
+      reply_to: formData.email,
+      message: formData.message,
+      to_name: "Mahmoud",
+    };
+
+    emailjs
+      .send("service_zutgw6w", "template_rpazx2j", params, "kxl8b3nfodisnnP4k")
+      .then(
+        (response) => {
+          toast.success("✅ Message Sent Successfully!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            style: { backgroundColor: "#1E293B", color: "#FFFFFF" }, // Dark background & white text
+          });
+          console.log("Success!", response.status, response.text);
+          setFormData({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          toast.error("❌ حدث خطأ أثناء الإرسال، حاول مجددًا.", {
+            position: "bottom-left",
+            autoClose: 5000,
+          });
+          console.log("Failed...", error);
+        }
+      );
+  };
+  return (
+    <div>
+     <section className="section section1 pt-5  " id="home" >
+        <div className="container position-relative pt-5 ">
+          <div className="row py-5 ">
+            <div className="col-md-6">
+              <div className="heading ">
+                <motion.span  variants={SlideUp(0.2)}
+                              initial="initial"
+                              animate="animate"  className="">EMPOWERMENT</motion.span>
+                <motion.h2 variants={SlideUp(0.5)}
+                              initial="initial"
+                              animate="animate" >Seamless IT for your business, boosting your growth.</motion.h2>
+                <motion.p variants={SlideUp(0.8)}
+                              initial="initial"
+                              animate="animate">
+                  We provide the expertise and support to propel your business
+                  forward in the digital landscape.
+                </motion.p>
+              </div>
+              {/* <div> <GlowingSphere className="" /></div> */}
+
+              <div className="row ">
+                <div className="col-md-6 btnhome pt-5 d-flex gap-3 ">
+                  <motion.button variants={SlideUp(1.1)}
+                              initial="initial"
+                              animate="animate" className="btn-home1" onClick={()=> window.location.href='#about'} >Learn More </motion.button>
+                  <motion.button variants={SlideUp(1.3)}
+                              initial="initial"
+                              animate="animate" className="btn-home2 " onClick={() => window.location.href = '#contact'} >
+                    Let's Talk <i className="fas fa-arrow-right "></i>{" "}
+                  </motion.button>
+                </div>
+              </div>
+            </div>
+            <div   className="col-md-6 position-relative">
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active" data-bs-interval="3000">
+      <motion.img initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }} src={img2} alt="homeimg" className="w-100 rounded-4 home-img" />
+    </div>
+    <div className="carousel-item active" data-bs-interval="3000">
+      <motion.img initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }} src={img2} alt="homeimg" className="w-100 rounded-4 home-img" />
+    </div>
+    <div className="carousel-item active" data-bs-interval="3000">
+      <motion.img initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }} src={img2} alt="homeimg" className="w-100 rounded-4 home-img" />
+    </div>
+  
+  </div>
+
+  {/* المؤشرات */}
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  {/* أزرار التنقل */}
+
+</div>
+
+
+              <div className="row box-row  socialicons d-flex justify-content-center  ">
+                <motion.div initial={{ y: -10, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.7 }} className="col-md-4 pt-3 ">
+                  <button className="Btn ">
+                    <span className="svgContainer w-100">
+                      <i className="fab color fa-instagram text-white fs-4"></i>
+                    </span>
+                    <span class="BG w-75"></span>
+                  </button>
+                </motion.div>
+                <motion.div initial={{ y: -10, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1 }} className="col-md-4 pt-3 ">
+                  <button className="Btn ">
+                    <span className="svgContainer w-100">
+                      <i className="fab fa-whatsapp text-white fs-4"></i>
+                    </span>
+                    <span class="BG w-75"></span>
+                  </button>
+                </motion.div>
+                <motion.div initial={{ y: -10, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.3 }}className="col-md-4 pt-3 ">
+                  <button className="Btn ">
+                    <span className="svgContainer w-100">
+                      <i className="fab fa-instagram text-white fs-4"></i>
+                    </span>
+                    <span className="BG w-75"></span>
+                  </button>
+                </motion.div>
+              </div>
+             
+            </div>
+          </div>
+          <hr className=" text-white  mt-5 mb-0   " />
+        </div>
+      </section>
