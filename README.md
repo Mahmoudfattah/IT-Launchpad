@@ -1,4 +1,4 @@
-# Portfolio Website for IT Startup in Qatar
+![image](https://github.com/user-attachments/assets/e883a7e1-efaa-4579-ab1d-5432b2df0c67)# Portfolio Website for IT Startup in Qatar
 
 ## Overview
 This project is a portfolio website built for an IT startup based in Qatar. The design and functionality are entirely my own ideas—with no external UX/UI guidance—and the website is fully responsive, ensuring a smooth experience on all devices. The project includes a feature to switch the layout to Arabic (RTL) and implements a contact form using EmailJS.
@@ -21,40 +21,7 @@ This project is a portfolio website built for an IT startup based in Qatar. The 
 - **Testing:** Testing Library (various packages)
 - **Performance & Monitoring:** Web Vitals
 
-### Package Dependencies
-```json
-{
-  "name": "test-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@fortawesome/fontawesome-free": "^6.7.2",
-    "@fortawesome/fontawesome-svg-core": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@react-three/drei": "^10.0.4",
-    "@react-three/fiber": "^9.1.0",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
-    "motion": "^12.5.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "react-toastify": "^11.0.5",
-    "three": "^0.174.0",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  }
-}
+##You Can view It : 
 🛠️ Setup & Installation
 
 Clone the repository:
