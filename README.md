@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e883a7e1-efaa-4579-ab1d-5432b2df0c67)# Portfolio Website for IT Startup in Qatar
+# Portfolio Website for IT Startup in Qatar
 
 ## Overview
 This project is a portfolio website built for an IT startup based in Qatar. The design and functionality are entirely my own ideas—with no external UX/UI guidance—and the website is fully responsive, ensuring a smooth experience on all devices. The project includes a feature to switch the layout to Arabic (RTL) and implements a contact form using EmailJS.
@@ -21,7 +21,7 @@ This project is a portfolio website built for an IT startup based in Qatar. The 
 - **Testing:** Testing Library (various packages)
 - **Performance & Monitoring:** Web Vitals
 
-##You Can view It : 
+##You Can view It : https://mahmoudfattah.github.io/IT-Launchpad/
 🛠️ Setup & Installation
 
 Clone the repository:
